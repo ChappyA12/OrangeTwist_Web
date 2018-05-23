@@ -1,0 +1,113 @@
+
+html {
+	background-image: url(../images/OTBackground.jpg);
+	background-size: 40px;
+}
+
+body {
+	margin: auto;
+	width: 1000px;
+	font-weight: 300;
+	font-family: sans-serif;
+}
+
+body > a > img {
+	height: 180px;
+	margin-left: 30px;
+}
+
+main {
+	border: 1px solid #CCC;
+	background-color:#FFF;
+	width:100%;
+}
+
+/* header */
+
+header {
+	height: 40px;
+}
+
+header div {
+	position: absolute;
+	height: 40px;
+	width: 190px;
+	margin-left: 800px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header div img {
+	margin-right: 10px;
+	height: 22px;
+}
+
+#links {
+	margin-left: 0px;
+	width: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#links a {
+	width: 100px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+#links a:hover {
+	font-weight: 500;
+}
+
+#links a.selected {
+	font-weight: 500;
+}
+
+/* section */
+
+a {
+	color: #ff9c00;
+}
+
+a:hover {
+	color: #ffa270;
+}
+
+/* footer */
+
+footer {
+	margin-top: 50px;
+	color: #ff9c00;
+	text-align: center;
+}
+
+footer p {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+footer a {
+	text-decoration: underline;
+}
+
+/*creation*/
+
+body > div {
+	border-top: 1px solid #CCC;
+	margin-top: 50px;
+	width: 100%;
+	height: 40px;
+	background-color: #FFF;
+	text-decoration: off;
+}
+
+body > div p {
+	margin: 13px 0px 0px 5%;
+	float: left;
+	font-size: 14px;
+	color: #666;
+}

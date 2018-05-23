@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="styles/style.css" rel="stylesheet" type="text/css" />
+		<link href="styles/retail.css" rel="stylesheet" type="text/css" />
+		<script src="scripts/jquery-1.10.1.min.js"type="text/javascript"></script>
+		<script type="text/javascript" src="javascript/script.js"></script>
+		<title>Orange Twist Jewelry | Retailers</title>
+	</head>
+	<body>
+		<a href="index.html"> <img src="images/OTLogo2016.png"/> </a>
+		<main>
+			<header>
+				<div id="links">
+					<a class="selected" href="index.html"> <p>Home</p> </a>
+					<a href="jewelry.html"> <p>Jewelry</p> </a>
+					<a href="about.html"> <p>About Us</p> </a>
+					<a href="retail.html"> <p>Retailers</p> </a>
+					<a href="contact.html"> <p>Contact</p> </a>
+				</div>
+				<div>
+					<a href="https://www.facebook.com/myorangetwist" target="newtab">
+						<img src="images/FB_Logo.png"/>
+					</a>
+					<a href="mailto:?subject=Orange Twist Jewelry website&body=Check this jewelry out! 
+									 http://www.myorangetwist.com.">
+						<img src="images/Share.png"/>
+					</a>
+				</div>
+			</header>
+			<div id="map" style="width: 1000px; height: 380px;">
+			<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAME8im3xQY-WxsD5h7aYK9UfwQoxtmD3Y"></script>
+			<script type="text/javascript">
+				var locations = [
+					['Orange Twist HQ', 38.881845, -77.164451, 1],
+					['Charles W. Bowers Museum Corp', 33.763356, -117.868205, 2],
+					['Ronald Reagan Presidential Museum Gift Store', 34.259867, -118.819808, 3],
+					['Astrid', 41.403622, -72.546015, 4],
+					['Country Shop of Madison', 41.279078, -72.596521, 5],
+					['La Moda', 41.141425, -73.257119, 6],
+					['Odeon', 41.327547, -72.960591, 7],
+					['Sound Beach Sportswear', 41.030923, -73.567770, 8],
+					['Swank on Bank', 41.577597, -73.411599, 9],
+					['Tracy Brent', 41.284340, -72.683676, 10],
+					['Hillwood Estate Museum & Gardens', 38.943490, -77.052457, 11],
+					['The Kennedy Center Gift Shops', 38.896151, -77.055447, 12],
+					['National Building Museum', 38.897752, -77.017619, 13],
+					['National Gallery of Art', 38.892072, -77.017486, 14],
+					['National Museum of Women in the Arts', 38.905246, -77.014897, 15],
+					['Carmine\'s Gift Shop', 26.846188, -80.070818, 16],
+					['Lemon Twist Shop Florida', 30.205777, -81.380801, 17],
+					['Morse Museum of Art', 28.600867, -81.351504, 18],
+					['Alikat', 42.360206, -71.054766, 19],
+					['Bryn Walker - Edgartown', 41.389734, -70.511665, 20],
+					['Bryn Walker - Vineyard Haven', 41.453894, -70.603490, 21],
+					['Collections on Court', 41.957055, -70.665096, 22],
+					['Herlihy\'s Jewelry', 42.335173, -72.672510, 23],
+					['Lola Tortola', 42.281325, -71.236992, 24],
+					['Museum of Fine Arts Boston', 42.339457, -71.094143, 25],
+					['Sportworks', 42.037569, -70.671124, 26],
+					['Sundance', 41.679893, -69.957114, 27],
+					['Tre Jolie', 42.161904, -71.216379, 28],
+					['Lemon Twist - Chevy Chase', 38.995795, -77.077083, 29],
+					['The Walters Art Museum', 39.296574, -76.616365, 30],
+					['House of Logan', 43.851276, -69.628950, 31],
+					['Alice Blues', 42.876602, -71.949935, 32],
+					['Miranda', 42.877500, -71.949503, 33],
+					['Prim Fashion Boutique', 42.916015, -70.863702, 34],
+					['Princeton Art Museum', 40.346717, -74.656877, 35],
+					['Winter Sun & Summer Moon', 41.926747, -73.912115, 36],
+					['Preservation Society of Newport, Mansions of Newport Gift Shops', 41.474988, -71.307316, 37],
+					['Cotton Mill Exchange, South Carolina State Museum', 33.998294, -81.048006, 38],
+					['Country Music Hall of Fame', 36.158334, -86.776266, 39],
+					['Pink Palace', 35.124883, -89.959533, 40],
+					['Briscoe Western Art Museum', 29.422921, -98.489009, 41],
+					['The Sixth Floor Museum Gift Shop', 32.780037, -96.807723, 42],
+					['Covet', 38.877334, -77.123987, 43],
+					['Lemon Twist', 38.898354, -77.118651, 45],
+					['Virginia Museum of Fine Arts', 37.555796, -77.474930, 46],
+					['Everywear for Everybody', 44.167358, -73.252769, 47],
+					['In Company', 44.470032, -72.687134, 48],
+				];
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 4,
+					center: new google.maps.LatLng(38.0, -97.52),
+					mapTypeId: google.maps.MapTypeId.ROADMAP,
+					streetViewControl:false,
+					panControl:false,
+					overviewMapControl:true,
+					scrollwheel: false,
+				});
+				var infowindow = new google.maps.InfoWindow();
+				var marker, i;
+				for (i = 0; i < locations.length; i++) {  
+					marker = new google.maps.Marker({
+						position: new google.maps.LatLng(locations[i][1],locations[i][2]),
+						map: map,
+					});
+					google.maps.event.addListener(marker, 'click', (function(marker, i) { 
+						return function() {
+							infowindow.setContent(locations[i][0]);
+							infowindow.open(map, marker);
+							map.setZoom(15);
+							map.setCenter(marker.getPosition());
+						}
+					})(marker, i));
+				}
+			</script>
+	</div>
+			<div id="main_box">
+    <div id="retail_title">
+    	<div id="retail_title2">
+        	<p id="retail_titletext">Retailers</p>
+      	</div>
+    </div>
+    <div id="main_text">
+    		<p id="main_texttxt">Orange Twist has traveled a good bit of the globe to assemble our collections. You can find our designs at our fabulous sisterhood of Boutiques and Retailers below.</p>
+		</div>
+    <div id="retail_box1">
+    	<div id="retail_box2" style="overflow-y:scroll;">
+            <div class="style1"  >CALIFORNIA</div>
+            <br />
+
+            <b>Charles W. Bowers Museum of Art</b><br />
+            40 Presidential Dr.<br />
+            Santa Ana, CA  92706<br />
+            714-567-3622<br />
+            <br />
+            
+            <b>Ronald Reagan Presidential Museum Gift Store</b><br />
+            3446 28th St.<br />
+            Simi Valley, CA  93065-0600<br />
+            800-998-7641<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >CONNECTICUT</div>
+            <br />
+            
+            <b>Astrid</b><br />
+            255 North Parker Rd.<br />
+            Killingworth, CT  06419<br />
+            860-663-2403<br />
+            <br />
+            
+            <b>Country Shop of Madison</b><br />
+            684 Boston Post Rd.<br />
+            Madison, CT  06443-3045<br />
+            203-318-0368<br />
+            <br />
+            
+            <b>La Moda</b><br />
+            1434 Post Rd.<br />
+            Fairfield, CT  06824<br />
+            203-254-2112<br />
+            <br />
+            
+            <b>Odeon</b><br />
+            918 Whalley Ave<br />
+            New Haven, CT  06515<br />
+            <br />
+            
+            <b>Sound Beach Sportswear</b><br />
+            239 Sound Beach Ave<br />
+            Old Greenwich, CT  06870<br />
+            <br />
+            
+            <b>Swank on Bank</b><br />
+            16 Bank St.<br />
+            New Milford, CT 06776<br />
+            <br />
+            
+            <b>Tracy Brent</b><br />
+            76 Broad St.<br />
+            Guilford, CT  06437<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >DC</div>
+            <br />
+            
+            <b>Hillwood Estate Museum and Gardens</b><br />
+            4155 Linnean Ave NW<br />
+            Washington, DC  20008<br />
+            202-243-3931<br />
+            <br />
+            
+            <b>The Kennedy Center Gift Shops</b><br />
+            2700 F St. NW<br />
+            Washington, DC  20566<br />
+            <br />
+            
+            <b>National Building Museum</b><br />
+            401 F St. NW<br />
+            Washington, DC  20001<br />
+            <br />
+            
+            <b>National Gallery of Art</b><br />
+            4th and Constituation Ave NW<br />
+            Washington, DC  20565<br />
+            202-789-3168<br />
+            <br />
+            
+            <b>National Museum of Women in the Arts</b><br />
+            250 New York Ave NW<br />
+            Washington, DC  20005<br />
+            202-783-7994<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >FLORIDA</div>
+            <br />
+            
+            <b>Carmine's Gift Shop</b><br />
+            2401 PGA Blvd, Suite 172<br />
+            Palm Beach Gardens, FL  33410<br />
+            <br />
+            
+            <b>Lemon Twist Shop Florida</b><br />
+            900 Sawgrass Village Dr.<br />
+            Ponte Vedra Beach, FL  32082<br />
+            904-280-5955<br />
+            <br />
+            
+            <b>Morse Museum of Art</b><br />
+            445 North Park Ave<br />
+            Winter Park, FL  32789<br />
+            407-645-5311<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >MASSACHUSETTS</div>
+            <br />
+            
+            <b>Alikat</b><br />
+            1 South Market Building Floor 3<br />
+            Boston, MA  02109<br />
+            978-887-0945<br />
+            <br />
+            
+            <b>Bryn Walker - Edgartown</b><br />
+            211 Kelley St.<br />
+            Edgartown, MA  02539<br />
+            508-627-7715<br />
+            <br />
+            
+            <b>Bryn Walker - Vineyard Haven</b><br />
+            16 Main St.<br />
+            Vineyard Haven, MA  02539<br />
+            508-693-8340<br />
+            <br />
+            
+            <b>Collections on Court</b><br />
+            2 Court St.<br />
+            Plymouth, MA  02360<br />
+            508-732-9850<br />
+            <br />
+            
+            <b>Herlihy's Jewelry</b><br />
+            76 Maple St.<br />
+            Florence, MA  01062<br />
+            413-584-2283<br />
+            <br />
+            
+            <b>Lola Tortola</b><br />
+            81 Chapel St.<br />
+            Needham, MA  02492<br />
+            781-455-0018<br />
+            <br />
+            
+            <b>Museum of Fine Arts Boston</b><br />
+            465 Huntington Ave<br />
+            Boston, MA  02115<br />
+            617-369-4273<br />
+            <br />
+            
+            <b>Sportworks</b><br />
+            45 Depot St.<br />
+            Duxbury, MA  02331<br />
+            781-934-9501<br />
+            <br />
+            
+            <b>Sundance</b><br />
+            497 Main St.<br />
+            Chatham, MA  02633<br />
+            508-945-5096<br />
+            <br />
+            
+            <b>Tre Jolie</b><br />
+            161 Washington St.<br />
+            East Walpole, MA  02032<br />
+            508-660-7161<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >MARYLAND</div>
+            <br />
+
+            <b>Lemon Twist - Chevy Chase</b><br />
+            8541 Connecticut Ave<br />
+            Chevy Chase, MD  20815<br />
+            <br />
+            
+            <b>The Walters Art Museum</b><br />
+            600 North Charles St.<br />
+            Baltimore, MD 21201<br />
+            410-547-9000x208<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >MAINE</div>
+            <br />
+            
+            <b>House of Logan</b><br />
+            PO Box 387<br />
+            Boothbay Harbor, ME 04538<br />
+            781-467-9034<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >NEW HAMPSHIRE</div>
+            <br />
+            
+            <b>Alice Blues</b><br />
+            10 School St.<br />
+            Peterborough, NH  03458<br />
+            603-924-6520<br />
+            <br />
+           
+            <b>Miranda</b><br />
+            28 Main Street<br />
+            Peterborough, NH 03458<br />
+            603-352-0681<br />
+            <br />
+            
+            <b>Prim Fashion Boutique</b><br />
+            87 Lafayette Rd. #9<br />
+            Hampton Falls, NH 03844<br />
+            603-926-1500<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >NEW JERSEY</div>
+            <br />
+            
+            <b>Princeton Art Museum</b><br />
+            Museum Store<br />
+            Princeton, NJ  08544<br />
+            609-258-7674<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >NEW YORK</div>
+            <br />
+            
+            <b>Winter Sun and Summer Moon</b><br />
+            10-14 East Market St.<br />
+            Rhinebeck, NY  12572<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >RHODE ISLAND</div>
+            <br />
+            
+            <b>Preservation Society of Newport,<br />
+            Mansions of Newport Gift Shops</b><br />
+            424 Bellevue Ave<br />
+            Newport, RI  02840<br />
+            401-847-1000x174<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >SOUTH CAROLINA</div>
+            <br />
+            
+            <b>Cotton Mill Exchange,<br />
+            South Carolina State Museum</b><br />
+            301 Gervais St.<br />
+            Columbia, SC  29201<br />
+            803-898-4968<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >TENNESSEE</div>
+            <br />
+            
+            <b>Country Music Hall of Fame</b><br />
+            222 Fifth Ave South<br />
+            Nashville, TN  372023<br />
+            615-291-8415<br />
+            <br />
+            
+            <b>Pink Palace</b><br />
+            3050 Central Ave<br />
+            Memphis, TN  38111<br />
+            901-636-2392<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >TEXAS</div>
+            <br />
+            
+            <b>Briscoe Western Art Museum</b><br />
+            210 West Market St.<br />
+            San Antonio, TX  78205<br />
+            210-299-4499x581<br />
+            <br />
+            
+            <b>The Sixth Floor Museum Gift Shop</b><br />
+            501 Elm St.<br />
+            Dallas, TX  75202<br />
+            214-747-6660<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >VIRGINIA</div>
+            <br />
+            
+            <b>Covet</b><br />
+            5140B Wilson Blvd<br />
+            Arlington, VA  22205<br />
+            703-247-9797<br />
+            <br />
+            
+            <b>Lemon Twist</b><br />
+            4518 North Lee Hwy<br />
+            Arlington, VA  22207<br />
+            703-524-4680<br />
+            <br />
+            
+            <b>Virginia Museum of Fine Arts</b><br />
+            200 North Blvd<br />
+            Richmond, VA  23220<br />
+            <br />
+            
+            <br />
+            <div class="style1"  >VERMONT</div>
+            <br />
+            
+            <b>Everywear for Everybody</b><br />
+            233 Main St.<br />
+            Vergennes, VT  05491<br />
+            802-877-6811<br />
+            <br />
+            
+            <b>In Company</b><br />
+            344 Mountain Rd.<br />
+            Stowe, VT 05672<br />
+            802.253.4595<br />
+            <br />
+            
+            
+            	<br />
+							<br />
+            	<p id="retail_count">All 47 stores</p>
+            </p>
+					</div>
+        </div>
+    	</div> 
+			<footer>
+				<p>
+					Orange Twist jewelry is sold exclusively to the trade. Please 
+					<a href="contact.html">contact us</a> for pricing and ordering information.
+				</p>
+				<p>
+					<a href="assets/OT-2016.pdf" target="newtab">
+						 Download the 2017-18 Orange Twist Jewelry Collection Catalog 
+					</a>
+				</p>     	
+				<p>Download our previous catalogs: 
+					<a href="assets/OT-2016.pdf" target="newtab">2016</a>,
+					<a href="assets/OT-2015Holiday.pdf" target="newtab">2015 Fall/Holiday</a>, 
+					<a href="assets/OT-2015Summer.pdf" target="newtab">2015 Spring/Summer</a>, 
+					<a href="assets/OT-2014Holiday.pdf" target="newtab">2014 Fall/Holiday</a>
+				</p>     
+			</footer>
+		</main>
+		<div>
+			<a href="https://www.linkedin.com/in/chappy-asel-b0629856/" title="Chappy Asel on LinkedIn"
+				 target="newtab">
+				<p>Website by Chappy Asel</p>
+			</a>
+		</div>
+	</body>
+</html>
