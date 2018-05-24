@@ -1,206 +1,16 @@
 
-/* web form */
-.system-message{
-	line-height:24px;
-	text-align:justify;
-	color:#666;
-	padding:0px 25px 0px 25px;
-	margin:55px 130px 0px 130px;
-	border-left:1px solid #ff9c00;
-	border-right:1px solid #ff9c00;
-	font-weight:200;
-	font-size:17px;
+article > div {
+	height: 620px;
+	overflow-y: scroll;
 }
-.system-message p,.system-message #name, .system-message #email, .system-message #casenumber,.system-message #cellphone,.system-message #customfields{
-	padding:0px 25px 0px 35px;
-}
-.system-message a{
-	text-decoration:none;
-	color:#666;
-}
-/* end web form */
-/* main */
-#main_box_template{
-	margin:22px 0px 0px 0px;
-	background-color:#FFF;
-	width:auto;
-	height:auto;
-	min-height:200px;
-	border-left:1px solid #CCC;
-	border-right:1px solid #CCC;
-}
-#main_box{
-	margin:22px 0px 0px 0px;
-	background-color:#FFF;
-	width:auto;
-	height:1300px;
-	border-left:1px solid #CCC;
-	border-right:1px solid #CCC;
-}
-#main_title{
-	border-top:1px solid #CCC;
-	border-bottom:1px solid #CCC;
-	background:#FFF;
-	height:68px;
-	display:block;
-}
-#main_title_template{
-	display:none;
-}
-#main_text{
-	height:340px;
-	display:block;
-}
-#main_titletxt{
-	margin-top:8px;
-	font-size:42px;
-	text-align:center;
-	color:#ff9c00;
-	/*text-shadow:-2px 2px 3px #CCCCCC;*/
-	font-weight:100;
-}
-#main_texttxt{
-	line-height:24px;
-	text-align:justify;
-	padding:0px 25px 0px 25px;
-	margin:55px 130px 0px 130px;
-	color:#666;
-	border-left:1px solid #ffa270;
-	border-right:1px solid #ffa270;
-	font-weight:200;
-	font-size:17px;
-}
-#index_buffer{
-	margin-top:-130px;
-}
-#slider{
-	margin-top:0px;
-}
-#slider_title{
-	margin:120px 100px 5px 100px;
-	background-color:#FFF;
-	border-bottom:1px solid #CCC;
-	height:40px;
-	text-align:center;
-}
-#image_slider{
-	width:100%;
-	margin:-1px;
-	border: 1px solid #CCC;
-}
-#title_triangles{
-	display:none;
-	width:900px;
-	padding-left:50px;
-	margin-top:-1px;
-	position:static;
-}
-#slider_box{
-	margin:0px 75px 0px 75px;
-	background:#FFF;
-	height:200px;
-}
-#slider_titletxt{
-	font-size:26px;
-	color:#ff9c00;
-	font-weight:100;
-	padding-top:8px;
-}
-#slider_link_box{
-	margin-top:110px;
-}
-#slider_link{
-	border-top:1px solid #CCC;
-	border-bottom:1px solid #CCC;
-	text-align:center;
-	margin:auto;
-	height:50px;
-	width:500px;
-}
-#slider_link img{
-	display:none;
-	margin-right:0px;
-	float:right;
-	height:16px;
-}
-#slider_linktxt{
-	color:#ff9c00;
-}
-#slider_linktxt:hover{
-	color:#ffa270;
-}
-/*main end*/
-/*contact*/
-.webform td{
-	color:#666;
-}
-.webform td input, .webform td textarea{
-	border:1px solid #CCC;
-	font-weight:100;
-	font-family:sans-serif;
-	background-color:#FFF;
-}
-.webform td #Title{
-	width:203px;
-	background-color:#FFF;
-	color:#666;
-	border:1px solid #CCC;
-}
-.webform td #FirstName{
-	width:200px;
-}
-.webform td #LastName{
-	width:200px;
-}
-.webform td #CellPhone{
-	width:200px;
-}
-.webform td #EmailAddress{
-	width:200px;
-}
-.webform td #CAT_Custom_396493{
-	width:200px;
-}
-.webform td #CAT_Custom_396494{
-	width:350px;
-	height:100px;
-	min-height:100px;
-	min-width:310px;
-	max-height:250px;
-	max-width:490px;
-}
-.webform td #catwebformbutton{
-	font-size:14px;
-	margin:20px 0px 0px 20px;
-	background-color:#ff9c00;
-	border:none;
-	border-radius:5px;
-	width:100px;
-	height:32px;
-	color:#FFF;
-}
-.req{
-	color:#ffa270;	
-}
-#form{
-	margin: -10px 0px 0px 200px;
-	padding:10px;
-	/*border:1px solid #ccc;*/
-	width:500px;
-}
-#contact_bottom{
-	margin-top:-240px;
-	overflow-y:scroll;
-	height:620px;
-}
-.contact_triangle{
+
+.contact_triangle {
 	margin-top:-20px;
 	height:10px;
 	width:30px;
 }
-.contact_top{
-	/*border-bottom:1px solid #CCC;
-	border-top:1px solid #CCC;*/
+
+.contact_top {
 	margin:20px 0px 0px 250px;
 	position:relative;
 	background-color:#FFF;
@@ -208,29 +18,126 @@
 	height:75px;
 	text-align:center;	
 }
-.contact_toptxt{
+
+.contact_toptxt {
 	font-size:25px;
 	margin-top:15px;
 	color:#ff9c00;
 	font-weight:100;
 }
-.contact_slide{
+
+.contact_slide {
 	overflow:hidden;
 	margin-top:-16px;
 	height:auto;
 	background-color:#FFF;
 	/*border-bottom:1px solid #CCC;*/
 }
-.contact_slidetxt{
+
+.contact_slidetxt {
 	color:#666;
 	line-height:30px;
 	font-weight:300;
 	padding:0px 0px 0px 200px;
 }
-.contact_slidetxt a{
+
+.contact_slidetxt a {
 	color:#666;
 }
-.contact_slidetxt a:hover{
+
+.contact_slidetxt a:hover {
 	color:#ffa270;
 }
-/*contact end*/
+
+/* web form */
+
+#form {
+	margin: -10px 0px 0px 200px;
+	padding: 10px;
+	width: 500px;
+}
+
+.webform td {
+	color: #666;
+}
+
+.webform td input, .webform td textarea {
+	border: 1px solid #CCC;
+	font-weight: 100;
+	font-family: sans-serif;
+	background-color: #FFF;
+}
+
+.webform td #Title {
+	width: 203px;
+	background-color: #FFF;
+	color: #666;
+	border: 1px solid #CCC;
+}
+
+.webform td #FirstName {
+	width: 200px;
+}
+
+.webform td #LastName {
+	width: 200px;
+}
+
+.webform td #CellPhone {
+	width: 200px;
+}
+
+.webform td #EmailAddress {
+	width: 200px;
+}
+
+.webform td #CAT_Custom_396493 {
+	width: 200px;
+}
+
+.webform td #CAT_Custom_396494 {
+	width: 350px;
+	height: 100px;
+	min-height: 100px;
+	min-width: 310px;
+	max-height: 250px;
+	max-width: 490px;
+}
+
+.webform td #catwebformbutton {
+	font-size: 14px;
+	margin: 20px 0px 0px 20px;
+	background-color: #ff9c00;
+	border: none;
+	border-radius: 5px;
+	width: 100px;
+	height: 32px;
+	color: #FFF;
+}
+
+.req {
+	color: #ffa270;	
+}
+
+/* web form */
+
+.system-message {
+	line-height: 24px;
+	text-align: justify;
+	color: #666;
+	padding: 0px 25px 0px 25px;
+	margin: 55px 130px 0px 130px;
+	border-left: 1px solid #ff9c00;
+	border-right: 1px solid #ff9c00;
+	font-weight: 200;
+	font-size: 17px;
+}
+
+.system-message p,.system-message #name, .system-message #email, .system-message #casenumber,.system-message #cellphone,.system-message #customfields {
+	padding: 0px 25px 0px 35px;
+}
+
+.system-message a {
+	text-decoration: none;
+	color: #666;
+}

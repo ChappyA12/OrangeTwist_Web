@@ -3,18 +3,20 @@
 	<head>
 		<link href="styles/style.css" rel="stylesheet" type="text/css" />
 		<link href="styles/about.css" rel="stylesheet" type="text/css" />
-		<script src="scripts/jquery-1.10.1.min.js"type="text/javascript"></script>
+		<script src="scripts/jquery-1.10.1.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="javascript/script.js"></script>
 		<title>Orange Twist Jewelry | About Us</title>
 	</head>
 	<body>
-		<a href="index.html"> <img src="images/OTLogo2016.png"/> </a>
+		<header>
+			<a href="index.html"> <img src="images/OTLogo2016.png"/> </a>
+		</header>
 		<main>
 			<header>
 				<div id="links">
-					<a class="selected" href="index.html"> <p>Home</p> </a>
+					<a href="index.html"> <p>Home</p> </a>
 					<a href="jewelry.html"> <p>Jewelry</p> </a>
-					<a href="about.html"> <p>About Us</p> </a>
+					<a class="selected" href="about.html"> <p>About Us</p> </a>
 					<a href="retail.html"> <p>Retailers</p> </a>
 					<a href="contact.html"> <p>Contact</p> </a>
 				</div>
@@ -28,13 +30,14 @@
 					</a>
 				</div>
 			</header>
-			<div id="main_box_about">
-				<img id="image" src="images/AboutUs.jpg" width="998" height="380"  alt="pic1" />
-        <div id="main_title">
-    			<p id="main_titletxt">About Us</p>
-    		</div>
-        <div id="main_text">
-    			<p id="main_texttxt">Mary Asel and Andrea Roberson started Orange Twist in 2009. These
+			<section>
+				<div class="flexslider">
+					<img src="images/AboutUs.jpg" />
+				</div>
+				<article>
+					<h1>About Us</h1>
+					<p>
+						Mary Asel and Andrea Roberson started Orange Twist in 2009. These
 						friends and neighbors originally met at a kindergarten bus stop but really started to
 						have fun when they discovered their complementary skills while partnering on a 
 						fundraiser event.
@@ -52,11 +55,9 @@
 						wide variety of fabulous boutiques and fine museum stores around the corner and across
 						the country.  We have also proudly designed pieces for sale in a number of catalogs.
 					</p>
-				</div>
-        <div id="about_box">
-           <img id="about_Signatures" src="images/Signatures.png"/>
-        </div>
-			</div>
+					<img src="images/signature.png"/>
+				</article>
+			</section>
 			<footer>
 				<p>
 					Orange Twist jewelry is sold exclusively to the trade. Please 
