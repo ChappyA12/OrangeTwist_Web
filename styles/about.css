@@ -1,4 +1,8 @@
 
+.flexslider {
+	background-image: url(../images/about/main.jpg);
+}
+
 article img {
 	padding: 0px 20%;
 	height:120px;

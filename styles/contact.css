@@ -1,143 +1,53 @@
 
+.flexslider {
+	background-image: url(../images/contact/main.jpg);
+}
+
 article > div {
-	height: 620px;
+	margin: auto;
+	width: 70%;
+	height: 600px;
 	overflow-y: scroll;
 }
 
-.contact_triangle {
-	margin-top:-20px;
-	height:10px;
-	width:30px;
+article img {
+	margin-top: -20px;
+	height: 10px;
+	width: 30px;
 }
 
 .contact_top {
-	margin:20px 0px 0px 250px;
-	position:relative;
-	background-color:#FFF;
-	width:500px;
-	height:75px;
-	text-align:center;	
+	margin: 20px 0px;
+	position: relative;
+	background-color: #FFF;
+	width: 100%;
+	height: 75px;
+	text-align: center;
 }
 
-.contact_toptxt {
-	font-size:25px;
-	margin-top:15px;
-	color:#ff9c00;
-	font-weight:100;
+article h2 {
+	font-size: 25px;
+	margin-top: 15px;
+	border: none;
 }
 
 .contact_slide {
-	overflow:hidden;
-	margin-top:-16px;
-	height:auto;
-	background-color:#FFF;
-	/*border-bottom:1px solid #CCC;*/
-}
-
-.contact_slidetxt {
-	color:#666;
-	line-height:30px;
-	font-weight:300;
-	padding:0px 0px 0px 200px;
-}
-
-.contact_slidetxt a {
-	color:#666;
-}
-
-.contact_slidetxt a:hover {
-	color:#ffa270;
-}
-
-/* web form */
-
-#form {
-	margin: -10px 0px 0px 200px;
-	padding: 10px;
-	width: 500px;
-}
-
-.webform td {
-	color: #666;
-}
-
-.webform td input, .webform td textarea {
-	border: 1px solid #CCC;
-	font-weight: 100;
-	font-family: sans-serif;
+	overflow: hidden;
+	margin-top: -16px;
+	height: auto;
 	background-color: #FFF;
 }
 
-.webform td #Title {
-	width: 203px;
-	background-color: #FFF;
+article div p {
 	color: #666;
-	border: 1px solid #CCC;
+	line-height: 30px;
+	padding: 0px 0px 0px 15%;
 }
 
-.webform td #FirstName {
-	width: 200px;
-}
-
-.webform td #LastName {
-	width: 200px;
-}
-
-.webform td #CellPhone {
-	width: 200px;
-}
-
-.webform td #EmailAddress {
-	width: 200px;
-}
-
-.webform td #CAT_Custom_396493 {
-	width: 200px;
-}
-
-.webform td #CAT_Custom_396494 {
-	width: 350px;
-	height: 100px;
-	min-height: 100px;
-	min-width: 310px;
-	max-height: 250px;
-	max-width: 490px;
-}
-
-.webform td #catwebformbutton {
-	font-size: 14px;
-	margin: 20px 0px 0px 20px;
-	background-color: #ff9c00;
-	border: none;
-	border-radius: 5px;
-	width: 100px;
-	height: 32px;
-	color: #FFF;
-}
-
-.req {
-	color: #ffa270;	
-}
-
-/* web form */
-
-.system-message {
-	line-height: 24px;
-	text-align: justify;
+article div a {
 	color: #666;
-	padding: 0px 25px 0px 25px;
-	margin: 55px 130px 0px 130px;
-	border-left: 1px solid #ff9c00;
-	border-right: 1px solid #ff9c00;
-	font-weight: 200;
-	font-size: 17px;
 }
 
-.system-message p,.system-message #name, .system-message #email, .system-message #casenumber,.system-message #cellphone,.system-message #customfields {
-	padding: 0px 25px 0px 35px;
-}
-
-.system-message a {
-	text-decoration: none;
-	color: #666;
+article div a:hover {
+	color: #ffa270;
 }

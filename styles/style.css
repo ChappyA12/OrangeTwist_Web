@@ -10,9 +10,19 @@ body {
 	font-family: sans-serif;
 }
 
-body > header {
+main, body > header {
 	margin: auto;
-	width: 1000px;
+	width: 70%;
+	min-width: 800px;
+	max-width: 1200px;
+}
+
+main {
+	border: 1px solid #CCC;
+	background-color:#FFF;
+}
+
+body > header {
 	height: 180px;
 }
 
@@ -20,24 +30,17 @@ body > header img {
 	height: 100%;
 }
 
-main {
-	margin: auto;
-	width: 1000px;
-	border: 1px solid #CCC;
-	background-color:#FFF;
-}
-
 /* header */
 
 header {
 	height: 40px;
+	width: 100%;
 }
 
 header div {
-	position: absolute;
+	float: right;
+	width: 20%;
 	height: 40px;
-	width: 190px;
-	margin-left: 800px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -49,8 +52,8 @@ header div img {
 }
 
 #links {
-	margin-left: 0px;
-	width: 800px;
+	float:left;
+	width: 80%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -76,7 +79,10 @@ header div img {
 
 .flexslider {
 	height: 380px;
-	width: 1000px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 /* article */
@@ -110,6 +116,7 @@ article h3 {
 	border-bottom: 1px solid #CCC;
 	height: 40px;
 	width: 60%;
+	min-width: 550px;
 }
 
 article > a {

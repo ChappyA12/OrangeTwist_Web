@@ -7,11 +7,11 @@ article div {
 }
 
 article div div {
-	width: 980px;
+	width: 95%;
 	/*border: 1px solid #CCC;*/
 }
 
 article img {
-	width: 980px;
-	height: 767px;
+	width: 95%;
+	height: 100%;
 }

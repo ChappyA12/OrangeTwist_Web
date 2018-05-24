@@ -1,84 +1,3 @@
-// JavaScript Document
-/*$(document).ready(function(){
-    $(".menuBar").mouseover(function(){
-        $(this).fadeTo('fast',1);
-});});
-$(document).ready(function(){
-    $(".menuBar").mouseleave(function(){
-        $(this).fadeTo('fast',0.6);
-});});*/
-
-$(window).load(function() {
-	$('.flexslider').flexslider({
-		animation: 'slide',
-		slideshowSpeed: 5000,
-		animationSpeed: 1000,
-		pauseOnAction: true,
-		touch: true,
-		directionNav: true,
-	});
-});
-
-function theRotator() {
-	//Set the opacity of all images to 0
-	$('div.rotator ul li').css({opacity: 0.0});
-	//Get the first image and display it (gets set to full opacity)
-	$('div.rotator ul li:first').css({opacity: 1.0});	
-	//Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
-	setInterval('rotate()',4000);
-}
-function rotate() {	
-	//Get the first image
-	var current = ($('div.rotator ul li.show')?  $('div.rotator ul li.show') : $('div.rotator ul li:first'));
-    if ( current.length == 0 ) current = $('div.rotator ul li:first');
-	//Get next image, when it reaches the end, rotate it back to the first image
-	var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div.rotator ul li:first') :current.next()) : $('div.rotator ul li:first'));
-	//Un-comment the 3 lines below to get the images in random order
-	//var sibs = current.siblings();
-        //var rndNum = Math.floor(Math.random() * sibs.length );
-        //var next = $( sibs[ rndNum ] );
-	//Set the fade in effect for the next image, the show class has higher z-index
-	next.css({opacity: 0.0})
-	.addClass('show')
-	.animate({opacity: 1.0}, 1000);
-	//Hide the current image
-	current.animate({opacity: 0.0}, 1000)
-	.removeClass('show');
-};
-$(document).ready(function() {		
-	//Load the slideshow
-	theRotator();
-	$('div.rotator').fadeIn(1000);
-    $('div.rotator ul li').fadeIn(1000); // tweek for IE
-});
-
-
-$(document).ready(function() {
-	$('.standard').hover(
-		function(){
-			$(this).find('.caption').show();
-		},
-		function(){
-			$(this).find('.caption').hide();
-		}
-	);
-	$('.fade').hover(
-		function(){
-			$(this).find('.caption').fadeIn(150);
-		},
-		function(){
-			$(this).find('.caption').fadeOut(020);
-		}
-	);
-	$('.slide').hover(
-		function(){
-			$(this).find('.caption').slideDown(250);
-		},
-		function(){
-			$(this).find('.caption').slideUp(250);
-		}
-	);
-});
 
 jQuery.fn.rotate = function(degrees) {
     $(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
@@ -89,9 +8,11 @@ jQuery.fn.rotate = function(degrees) {
 };
 
 var form = 0;
+
 $(document).ready(function(){
 		$('#contact_slidedown_form').slideUp(0);
 });
+
 $(document).ready(function(){
 	$('#contact_form').click(function(){
 		$('#contact_slidedown_form').slideToggle('swing');
@@ -122,9 +43,11 @@ $(document).ready(function(){
 });
 
 var national = 0;
+
 $(document).ready(function(){
 		$('#contact_slidedown_national').slideUp(0);
 });
+
 $(document).ready(function(){
 	$('#contact_national').click(function(){
 		$('#contact_slidedown_national').slideToggle('swing');
@@ -286,15 +209,3 @@ $(document).ready(function(){
 		
 	});
 });
-
-//menubar
-
-$(document).ready(function(){
-		$('#Menubar_Slidedown').slideUp(0);
-});
-$(document).ready(function(){
-	$('#Menubar_Button').click(function(){
-		$('#Menubar_Slidedown').slideToggle('swing');
-	});
-});
-
