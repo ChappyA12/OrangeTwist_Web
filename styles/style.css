@@ -77,12 +77,18 @@ header div img {
 
 /* slider */
 
-.flexslider {
-	height: 380px;
-	width: 100%;
+.flexslider, .flexslider li {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	height: 380px;
+	width: 100%;
+}
+
+.flexslider {
+	overflow: hidden;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
 }
 
 /* article */
