@@ -74,10 +74,11 @@ html[xmlns] .slides {
 	font-weight:200;
 }
 .flexslider {
-	float:left;height:350px; 
-	width:999px;
-	margin-top:-380px;
-	position: relative; zoom: 1; 
+	margin: auto;
+	height: 380px; 
+	width: 1000px;
+	position: relative; 
+	zoom: 1; 
 }
 .flex-viewport { 
 	max-height: 1000px; 
@@ -98,7 +99,9 @@ html[xmlns] .slides {
 
 /* Direction Nav */
 .flex-direction-nav {
-	*height: 0;}
+	*height: 0;
+}
+
 .flex-direction-nav a  {
 	background-color:rgba(255,255,255,0 /* BG COLOR */);
 	border-radius:8px;
@@ -185,6 +188,7 @@ html[xmlns] .slides {
 
 /* Control Nav */
 .flex-control-nav {
+	display: none; /* hides page view */
 	z-index:500;
 	width: 100%; 
 	position: absolute; 

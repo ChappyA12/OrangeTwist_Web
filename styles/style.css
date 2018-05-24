@@ -5,21 +5,26 @@ html {
 }
 
 body {
-	margin: auto;
-	width: 1000px;
+	margin: 0;
 	font-weight: 300;
 	font-family: sans-serif;
 }
 
-body > a > img {
+body > header {
+	margin: auto;
+	width: 1000px;
 	height: 180px;
-	margin-left: 30px;
+}
+
+body > header img {
+	height: 100%;
 }
 
 main {
+	margin: auto;
+	width: 1000px;
 	border: 1px solid #CCC;
 	background-color:#FFF;
-	width:100%;
 }
 
 /* header */
@@ -67,7 +72,62 @@ header div img {
 	font-weight: 500;
 }
 
-/* section */
+/* slider */
+
+.flexslider {
+	height: 380px;
+	width: 1000px;
+}
+
+/* article */
+
+article {
+	
+}
+
+article h1, h2, h3 {
+	padding-top: 20px;
+	margin: auto;
+	border-bottom: 1px solid #CCC;
+	height: 60px;
+	color: #ff9c00;
+	text-align: center;
+	font-weight: 100;
+}
+
+article h1 {
+	font-size: 40px;
+}
+
+article h2 {
+	font-size: 30px;
+}
+
+article h3 {
+	font-size: 18px;
+	margin: 50px auto;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	height: 40px;
+	width: 60%;
+}
+
+article > a {
+	text-decoration: none;
+}
+
+article > p {
+	margin: 50px auto;
+	width: 65%;
+	line-height: 24px;
+	text-align: justify;
+	padding: 0px 25px;
+	color: #666;
+	border-left: 1px solid #ffa270;
+	border-right: 1px solid #ffa270;
+	font-weight: 200;
+	font-size: 17px;
+}
 
 a {
 	color: #ff9c00;
