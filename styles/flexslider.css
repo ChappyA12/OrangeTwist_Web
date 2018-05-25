@@ -118,7 +118,7 @@ html[xmlns] .slides {
 	transition: all .3s ease; 
 }
 .flex-direction-nav .flex-prev {
-	background-image:url(../images/Left.png);
+	background-image:url(../img/src/nav/left.png);
 	background-size:30px;
 	background-repeat:no-repeat;
 	background-position:center; 
@@ -126,7 +126,7 @@ html[xmlns] .slides {
 	text-indent: -9999px; 
 }
 .flex-direction-nav .flex-next {
-	background-image:url(../images/Right.png);
+	background-image:url(../img/src/nav/right.png);
 	background-size:30px;
 	background-repeat:no-repeat;
 	background-position:center;

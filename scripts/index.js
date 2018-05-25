@@ -1,5 +1,5 @@
 
-const IMAGE_PATH = "images/cover/";
+const IMAGE_PATH = "img/index/cover/";
 
 const IMAGES = ["1.jpg", "2.jpg", "3.jpg", "4.jpg"];
 
@@ -13,7 +13,7 @@ window.onload = function() {
 		div.classList.add("fade");
 		link.appendChild(div);
 		div.innerHTML = "<h4>" + SLIDERS[i] + "</h4>" +
-										"<img src='images/spin/" + SLIDERS[i] + ".jpg'>";
+										"<img src='img/index/spin/" + SLIDERS[i] + ".jpg'>";
 		
 		if (i < 4) { $(".slider .1").append(link); }
 		else {       $(".slider .2").append(link); }
