@@ -19,7 +19,7 @@
 
 .slider div div, .slider img, .slider h4 {
 	width: 14vw;
-	min-width: 140px;
+	min-width: 120px;
 	max-width: 200px;
 }
 

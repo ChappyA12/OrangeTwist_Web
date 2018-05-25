@@ -13,8 +13,8 @@ body {
 main, body > header {
 	margin: auto;
 	width: 70%;
-	min-width: 800px;
-	max-width: 1200px;
+	min-width: 600px;
+	max-width: 1500px;
 }
 
 main {
@@ -79,7 +79,7 @@ header div img {
 
 .flexslider, .flexslider li {
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	height: 380px;
 	width: 100%;
@@ -122,7 +122,7 @@ article h3 {
 	border-bottom: 1px solid #CCC;
 	height: 40px;
 	width: 60%;
-	min-width: 550px;
+	min-width: 520px;
 }
 
 article > a {

@@ -6,6 +6,7 @@
 article > div {
 	margin: auto;
 	width: 70%;
+	min-width: 500px;
 	height: 600px;
 	overflow-y: scroll;
 }
