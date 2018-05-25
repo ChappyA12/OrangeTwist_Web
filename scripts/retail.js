@@ -7,7 +7,7 @@ window.onload = function() {
 };
 
 function loadRetailers() {
-	let url = BASE_URL + "/src/retailers.txt";
+	let url = BASE_URL + "/src/retailers.json";
 	fetch(url, {mode: 'cors'})
 		.then(checkStatus)
 		.then(JSON.parse)

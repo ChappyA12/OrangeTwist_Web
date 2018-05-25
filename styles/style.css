@@ -14,7 +14,22 @@ main, body > header {
 	margin: auto;
 	width: 70%;
 	min-width: 600px;
-	max-width: 1500px;
+	max-width: 1300px;
+}
+
+@media only screen and (max-width: 1400px) {
+	main, body > header {
+		margin: auto;
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	main, body > header {
+		margin: auto;
+		width: 100%;
+		min-width: 300px;
+	}
 }
 
 main {
