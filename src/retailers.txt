@@ -1,332 +1,441 @@
-<span>CALIFORNIA</span>
-						<br />
-
-						<b>Charles W. Bowers Museum of Art</b><br />
-						40 Presidential Dr.<br />
-						Santa Ana, CA  92706<br />
-						714-567-3622<br />
-						<br />
-
-						<b>Ronald Reagan Presidential Museum Gift Store</b><br />
-						3446 28th St.<br />
-						Simi Valley, CA  93065-0600<br />
-						800-998-7641<br />
-						<br />
-
-						<br />
-						<span>CONNECTICUT</span>
-						<br />
-
-						<b>Astrid</b><br />
-						255 North Parker Rd.<br />
-						Killingworth, CT  06419<br />
-						860-663-2403<br />
-						<br />
-
-						<b>Country Shop of Madison</b><br />
-						684 Boston Post Rd.<br />
-						Madison, CT  06443-3045<br />
-						203-318-0368<br />
-						<br />
-
-						<b>La Moda</b><br />
-						1434 Post Rd.<br />
-						Fairfield, CT  06824<br />
-						203-254-2112<br />
-						<br />
-
-						<b>Odeon</b><br />
-						918 Whalley Ave<br />
-						New Haven, CT  06515<br />
-						<br />
-
-						<b>Sound Beach Sportswear</b><br />
-						239 Sound Beach Ave<br />
-						Old Greenwich, CT  06870<br />
-						<br />
-
-						<b>Swank on Bank</b><br />
-						16 Bank St.<br />
-						New Milford, CT 06776<br />
-						<br />
-
-						<b>Tracy Brent</b><br />
-						76 Broad St.<br />
-						Guilford, CT  06437<br />
-						<br />
-
-						<br />
-						<span>DC</span>
-						<br />
-
-						<b>Hillwood Estate Museum and Gardens</b><br />
-						4155 Linnean Ave NW<br />
-						Washington, DC  20008<br />
-						202-243-3931<br />
-						<br />
-
-						<b>The Kennedy Center Gift Shops</b><br />
-						2700 F St. NW<br />
-						Washington, DC  20566<br />
-						<br />
-
-						<b>National Building Museum</b><br />
-						401 F St. NW<br />
-						Washington, DC  20001<br />
-						<br />
-
-						<b>National Gallery of Art</b><br />
-						4th and Constituation Ave NW<br />
-						Washington, DC  20565<br />
-						202-789-3168<br />
-						<br />
-
-						<b>National Museum of Women in the Arts</b><br />
-						250 New York Ave NW<br />
-						Washington, DC  20005<br />
-						202-783-7994<br />
-						<br />
-
-						<br />
-						<span>FLORIDA</span>
-						<br />
-
-						<b>Carmine's Gift Shop</b><br />
-						2401 PGA Blvd, Suite 172<br />
-						Palm Beach Gardens, FL  33410<br />
-						<br />
-
-						<b>Lemon Twist Shop Florida</b><br />
-						900 Sawgrass Village Dr.<br />
-						Ponte Vedra Beach, FL  32082<br />
-						904-280-5955<br />
-						<br />
-
-						<b>Morse Museum of Art</b><br />
-						445 North Park Ave<br />
-						Winter Park, FL  32789<br />
-						407-645-5311<br />
-						<br />
-
-						<br />
-						<span>MASSACHUSETTS</span>
-						<br />
-
-						<b>Alikat</b><br />
-						1 South Market Building Floor 3<br />
-						Boston, MA  02109<br />
-						978-887-0945<br />
-						<br />
-
-						<b>Bryn Walker - Edgartown</b><br />
-						211 Kelley St.<br />
-						Edgartown, MA  02539<br />
-						508-627-7715<br />
-						<br />
-
-						<b>Bryn Walker - Vineyard Haven</b><br />
-						16 Main St.<br />
-						Vineyard Haven, MA  02539<br />
-						508-693-8340<br />
-						<br />
-
-						<b>Collections on Court</b><br />
-						2 Court St.<br />
-						Plymouth, MA  02360<br />
-						508-732-9850<br />
-						<br />
-
-						<b>Herlihy's Jewelry</b><br />
-						76 Maple St.<br />
-						Florence, MA  01062<br />
-						413-584-2283<br />
-						<br />
-
-						<b>Lola Tortola</b><br />
-						81 Chapel St.<br />
-						Needham, MA  02492<br />
-						781-455-0018<br />
-						<br />
-
-						<b>Museum of Fine Arts Boston</b><br />
-						465 Huntington Ave<br />
-						Boston, MA  02115<br />
-						617-369-4273<br />
-						<br />
-
-						<b>Sportworks</b><br />
-						45 Depot St.<br />
-						Duxbury, MA  02331<br />
-						781-934-9501<br />
-						<br />
-
-						<b>Sundance</b><br />
-						497 Main St.<br />
-						Chatham, MA  02633<br />
-						508-945-5096<br />
-						<br />
-
-						<b>Tre Jolie</b><br />
-						161 Washington St.<br />
-						East Walpole, MA  02032<br />
-						508-660-7161<br />
-						<br />
-
-						<br />
-						<span>MARYLAND</span>
-						<br />
-
-						<b>Lemon Twist - Chevy Chase</b><br />
-						8541 Connecticut Ave<br />
-						Chevy Chase, MD  20815<br />
-						<br />
-
-						<b>The Walters Art Museum</b><br />
-						600 North Charles St.<br />
-						Baltimore, MD 21201<br />
-						410-547-9000x208<br />
-						<br />
-
-						<br />
-						<span>MAINE</span>
-						<br />
-
-						<b>House of Logan</b><br />
-						PO Box 387<br />
-						Boothbay Harbor, ME 04538<br />
-						781-467-9034<br />
-						<br />
-
-						<br />
-						<span>NEW HAMPSHIRE</span>
-						<br />
-
-						<b>Alice Blues</b><br />
-						10 School St.<br />
-						Peterborough, NH  03458<br />
-						603-924-6520<br />
-						<br />
-
-						<b>Miranda</b><br />
-						28 Main Street<br />
-						Peterborough, NH 03458<br />
-						603-352-0681<br />
-						<br />
-
-						<b>Prim Fashion Boutique</b><br />
-						87 Lafayette Rd. #9<br />
-						Hampton Falls, NH 03844<br />
-						603-926-1500<br />
-						<br />
-
-						<br />
-						<span>NEW JERSEY</span>
-						<br />
-
-						<b>Princeton Art Museum</b><br />
-						Museum Store<br />
-						Princeton, NJ  08544<br />
-						609-258-7674<br />
-						<br />
-
-						<br />
-						<span>NEW YORK</span>
-						<br />
-
-						<b>Winter Sun and Summer Moon</b><br />
-						10-14 East Market St.<br />
-						Rhinebeck, NY  12572<br />
-						<br />
-
-						<br />
-						<span>RHODE ISLAND</span>
-						<br />
-
-						<b>Preservation Society of Newport,<br />
-						Mansions of Newport Gift Shops</b><br />
-						424 Bellevue Ave<br />
-						Newport, RI  02840<br />
-						401-847-1000x174<br />
-						<br />
-
-						<br />
-						<span>SOUTH CAROLINA</span>
-						<br />
-
-						<b>Cotton Mill Exchange,<br />
-						South Carolina State Museum</b><br />
-						301 Gervais St.<br />
-						Columbia, SC  29201<br />
-						803-898-4968<br />
-						<br />
-
-						<br />
-						<span>TENNESSEE</span>
-						<br />
-
-						<b>Country Music Hall of Fame</b><br />
-						222 Fifth Ave South<br />
-						Nashville, TN  372023<br />
-						615-291-8415<br />
-						<br />
-
-						<b>Pink Palace</b><br />
-						3050 Central Ave<br />
-						Memphis, TN  38111<br />
-						901-636-2392<br />
-						<br />
-
-						<br />
-						<span>TEXAS</span>
-						<br />
-
-						<b>Briscoe Western Art Museum</b><br />
-						210 West Market St.<br />
-						San Antonio, TX  78205<br />
-						210-299-4499x581<br />
-						<br />
-
-						<b>The Sixth Floor Museum Gift Shop</b><br />
-						501 Elm St.<br />
-						Dallas, TX  75202<br />
-						214-747-6660<br />
-						<br />
-
-						<br />
-						<span>VIRGINIA</span>
-						<br />
-
-						<b>Covet</b><br />
-						5140B Wilson Blvd<br />
-						Arlington, VA  22205<br />
-						703-247-9797<br />
-						<br />
-
-						<b>Lemon Twist</b><br />
-						4518 North Lee Hwy<br />
-						Arlington, VA  22207<br />
-						703-524-4680<br />
-						<br />
-
-						<b>Virginia Museum of Fine Arts</b><br />
-						200 North Blvd<br />
-						Richmond, VA  23220<br />
-						<br />
-
-						<br />
-						<span>VERMONT</span>
-						<br />
-
-						<b>Everywear for Everybody</b><br />
-						233 Main St.<br />
-						Vergennes, VT  05491<br />
-						802-877-6811<br />
-						<br />
-
-						<b>In Company</b><br />
-						344 Mountain Rd.<br />
-						Stowe, VT 05672<br />
-						802.253.4595<br />
-						<br />
-						<br />
-						<h6>All 47 stores</h6>
+{
+	"retailers": [
+		{
+			"state": "CALIFORNIA",
+			"stores": [
+				{
+					"name": "Charles W. Bowers Museum of Art",
+					"adress": [
+						"40 Presidential Dr.",
+						"Santa Ana, CA  92706"
+					],
+					"phone": "714-567-3622"
+				},
+				{
+					"name": "Ronald Reagan Presidential Museum Gift Store",
+					"adress": [
+						"3446 28th St.",
+						"Simi Valley, CA  93065-0600"
+					],
+					"phone": "800-998-7641"
+				}
+			]
+		},
+		{
+			"state": "CONNECTICUT",
+			"stores": [
+				{
+					"name": "Astrid",
+					"adress": [
+						"255 North Parker Rd.",
+						"Killingworth, CT  06419"
+					],
+					"phone": "860-663-2403"
+				},
+				{
+					"name": "Country Shop of Madison",
+					"adress": [
+						"684 Boston Post Rd.",
+						"Madison, CT  06443-3045"
+					],
+					"phone": "203-318-0368"
+				},
+				{
+					"name": "La Moda",
+					"adress": [
+						"1434 Post Rd.",
+						"Fairfield, CT  06824"
+					],
+					"phone": "203-254-2112"
+				},
+				{
+					"name": "Odeon",
+					"adress": [
+						"918 Whalley Ave",
+						"New Haven, CT  06515"
+					]
+				},
+				{
+					"name": "Sound Beach Sportswear",
+					"adress": [
+						"239 Sound Beach Ave",
+						"Old Greenwich, CT  06870"
+					]
+				},
+				{
+					"name": "Swank on Bank",
+					"adress": [
+						"16 Bank St.",
+						"New Milford, CT 06776"
+					]
+				},
+				{
+					"name": "Tracy Brent",
+					"adress": [
+						"76 Broad St.",
+						"Guilford, CT  06437"
+					]
+				}
+			]
+		},
+		{
+			"state": "DC",
+			"stores": [
+				{
+					"name": "Hillwood Estate Museum and Gardens",
+					"adress": [
+						"4155 Linnean Ave NW",
+						"Washington, DC  20008"
+					],
+					"phone": "202-243-3931"
+				},
+				{
+					"name": "The Kennedy Center Gift Shops",
+					"adress": [
+						"2700 F St. NW",
+						"Washington, DC  20566"
+					]
+				},
+				{
+					"name": "National Building Museum",
+					"adress": [
+						"401 F St. NW",
+						"Washington, DC  20001"
+					]
+				},
+				{
+					"name": "National Gallery of Art",
+					"adress": [
+						"4th and Constituation Ave NW",
+						"Washington, DC  20565"
+					],
+					"phone": "202-789-3168"
+				},
+				{
+					"name": "National Museum of Women in the Arts",
+					"adress": [
+						"250 New York Ave NW",
+						"Washington, DC  20005"
+					],
+					"phone": "202-783-7994"
+				}
+			]
+		},
+		{
+			"state": "FLORIDA",
+			"stores": [
+				{
+					"name": "Carmine's Gift Shop",
+					"adress": [
+						"2401 PGA Blvd, Suite 172",
+						"Palm Beach Gardens, FL  33410"
+					]
+				},
+				{
+					"name": "Lemon Twist Shop Florida",
+					"adress": [
+						"900 Sawgrass Village Dr.",
+						"Ponte Vedra Beach, FL  32082"
+					],
+					"phone": "904-280-5955"
+				},
+				{
+					"name": "Morse Museum of Art",
+					"adress": [
+						"445 North Park Ave",
+						"Winter Park, FL  32789"
+					],
+					"phone": "407-645-5311"
+				}
+			]
+		},
+		{
+			"state": "MASSACHUSETTS",
+			"stores": [
+				{
+					"name": "Alikat",
+					"adress": [
+						"1 South Market Building Floor 3",
+						"Boston, MA  02109"
+					],
+					"phone": "978-887-0945"
+				},
+				{
+					"name": "Bryn Walker - Edgartown",
+					"adress": [
+						"211 Kelley St.",
+						"Edgartown, MA  02539"
+					],
+					"phone": "508-627-7715"
+				},
+				{
+					"name": "Bryn Walker - Vineyard Haven",
+					"adress": [
+						"16 Main St.",
+						"Vineyard Haven, MA  02539"
+					],
+					"phone": "508-693-8340"
+				},
+				{
+					"name": "Collections on Court",
+					"adress": [
+						"2 Court St.",
+						"Plymouth, MA  02360"
+					],
+					"phone": "508-732-9850"
+				},
+				{
+					"name": "Herlihy's Jewelry",
+					"adress": [
+						"76 Maple St.",
+						"Florence, MA  01062"
+					],
+					"phone": "413-584-2283"
+				},
+				{
+					"name": "Lola Tortola",
+					"adress": [
+						"81 Chapel St.",
+						"Needham, MA  02492"
+					],
+					"phone": "781-455-0018"
+				},
+				{
+					"name": "Museum of Fine Arts Boston",
+					"adress": [
+						"465 Huntington Ave",
+						"Boston, MA  02115"
+					],
+					"phone": "617-369-4273"
+				},
+				{
+					"name": "Sportworks",
+					"adress": [
+						"45 Depot St.",
+						"Duxbury, MA  02331"
+					],
+					"phone": "781-934-9501"
+				},
+				{
+					"name": "Sundance",
+					"adress": [
+						"497 Main St.",
+						"Chatham, MA  02633"
+					],
+					"phone": "508-945-5096"
+				},
+				{
+					"name": "Tre Jolie",
+					"adress": [
+						"161 Washington St.",
+						"East Walpole, MA  02032"
+					],
+					"phone": "508-660-7161"
+				}
+			]
+		},
+		{
+			"state": "MARYLAND",
+			"stores": [
+				{
+					"name": "Lemon Twist - Chevy Chase",
+					"adress": [
+						"8541 Connecticut Ave",
+						"Chevy Chase, MD  20815"
+					]
+				},
+				{
+					"name": "The Walters Art Museum",
+					"adress": [
+						"600 North Charles St.",
+						"Baltimore, MD 21201"
+					],
+					"phone": "410-547-9000x208"
+				}
+			]
+		},
+		{
+			"state": "MAINE",
+			"stores": [
+				{
+					"name": "House of Logan",
+					"adress": [
+						"PO Box 387",
+						"Boothbay Harbor, ME 04538"
+					],
+					"phone": "781-467-9034"
+				}
+			]
+		},
+		{
+			"state": "NEW HAMPSHIRE",
+			"stores": [
+				{
+					"name": "Alice Blues",
+					"adress": [
+						"10 School St.",
+						"Peterborough, NH  03458"
+					],
+					"phone": "603-924-6520"
+				},
+				{
+					"name": "Miranda",
+					"adress": [
+						"28 Main Street",
+						"Peterborough, NH 03458"
+					],
+					"phone": "603-352-0681"
+				},
+				{
+					"name": "Prim Fashion Boutique",
+					"adress": [
+						"87 Lafayette Rd. #9",
+						"Hampton Falls, NH 03844"
+					],
+					"phone": "603-926-1500"
+				}
+			]
+		},
+		{
+			"state": "NEW JERSEY",
+			"stores": [
+				{
+					"name": "Princeton Art Museum",
+					"adress": [
+						"Princeton, NJ  08544"
+					],
+					"phone": "609-258-7674"
+				}
+			]
+		},
+		{
+			"state": "NEW YORK",
+			"stores": [
+				{
+					"name": "Winter Sun and Summer Moon",
+					"adress": [
+						"10-14 East Market St.",
+						"Rhinebeck, NY  12572"
+					]
+				}
+			]
+		},
+		{
+			"state": "RHODE ISLAND",
+			"stores": [
+				{
+					"name": "Preservation Society of Newport, Mansions of Newport Gift Shops",
+					"adress": [
+						"424 Bellevue Ave",
+						"Newport, RI  02840"
+					],
+					"phone": "401-847-1000x174"
+				}
+			]
+		},
+		{
+			"state": "SOUTH CAROLINA",
+			"stores": [
+				{
+					"name": "Cotton Mill Exchange, South Carolina State Museum",
+					"adress": [
+						"301 Gervais St.",
+						"Columbia, SC  29201"
+					],
+					"phone": "803-898-4968"
+				}
+			]
+		},
+		{
+			"state": "TENNESSEE",
+			"stores": [
+				{
+					"name": "Country Music Hall of Fame",
+					"adress": [
+						"222 Fifth Ave South",
+						"Nashville, TN  372023"
+					],
+					"phone": "615-291-8415"
+				},
+				{
+					"name": "Pink Palace",
+					"adress": [
+						"3050 Central Ave",
+						"Memphis, TN  38111"
+					],
+					"phone": "901-636-2392"
+				}
+			]
+		},
+		{
+			"state": "TEXAS",
+			"stores": [
+				{
+					"name": "Briscoe Western Art Museum",
+					"adress": [
+						"210 West Market St.",
+						"San Antonio, TX  78205"
+					],
+					"phone": "210-299-4499x581"
+				},
+				{
+					"name": "The Sixth Floor Museum Gift Shop",
+					"adress": [
+						"501 Elm St.",
+						"Dallas, TX  75202"
+					],
+					"phone": "214-747-6660"
+				}
+			]
+		},
+		{
+			"state": "VIRGINIA",
+			"stores": [
+				{
+					"name": "Covet",
+					"adress": [
+						"5140B Wilson Blvd",
+						"Arlington, VA  22205"
+					],
+					"phone": "703-247-9797"
+				},
+				{
+					"name": "Lemon Twist",
+					"adress": [
+						"4518 North Lee Hwy",
+						"Arlington, VA  22207"
+					],
+					"phone": "703-524-4680"
+				},
+				{
+					"name": "Virginia Museum of Fine Arts",
+					"adress": [
+						"200 North Blvd",
+						"Richmond, VA  23220"
+					]
+				}
+			]
+		},
+		{
+			"state": "VERMONT",
+			"stores": [
+				{
+					"name": "Everywear for Everybody",
+					"adress": [
+						"233 Main St.",
+						"Vergennes, VT  05491"
+					],
+					"phone": "802-877-6811"
+				},
+				{
+					"name": "In Company",
+					"adress": [
+						"344 Mountain Rd.",
+						"Stowe, VT 05672"
+					],
+					"phone": "802.253.4595"
+				}
+			]
+		}
+	]
+}

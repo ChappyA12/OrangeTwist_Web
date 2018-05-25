@@ -17,7 +17,7 @@ article img {
 	width: 30px;
 }
 
-.contact_top {
+.top {
 	margin: 20px 0px;
 	position: relative;
 	background-color: #FFF;
@@ -32,7 +32,7 @@ article h2 {
 	border: none;
 }
 
-.contact_slide {
+.bottom {
 	overflow: hidden;
 	margin-top: -16px;
 	height: auto;

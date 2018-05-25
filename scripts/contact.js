@@ -5,16 +5,16 @@ let sliders = { "national": 0, "northeast": 0, "other": 0, "sale": 0, "mid": 0};
 // sets up slide triggers and hides slide view
 $(document).ready( function() {
 	Object.keys(sliders).forEach( function(key) {
-    $('#contact_slidedown_' + key).slideUp(0);
-		$('#contact_' + key).click( function() { slide(key); });
+    $('.bottom.' + key).slideUp(0);
+		$('.top.' + key).click( function() { slide(key); });
 	});
 });
 
 // slides a view
 function slide(value) {
-		$('#contact_slidedown_' + value).slideToggle('swing');
+		$('.bottom.' + value).slideToggle('swing');
 	
-		$('#contact_triangle_' + value).animate (
+		$('.triangle.' + value).animate (
 			{ borderSpacing: 180 + sliders[value] % 2 * 180 }, 
 			{ step: function(now,fx) { $(this).rotate(now); }, duration:'medium' },
 		'swing');
