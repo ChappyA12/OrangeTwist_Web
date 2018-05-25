@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<link href="styles/style.css" rel="stylesheet" type="text/css" />
-		<link href="styles/retail.css" rel="stylesheet" type="text/css" />
-		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAME8im3xQY-WxsD5h7aYK9UfwQoxtmD3Y"></script>
-		<script src="scripts/map.js"></script>
-		<script src="scripts/retail.js"></script>
-		<title>Orange Twist Jewelry | Retailers</title>
-	</head>
-	<body>
-		<header>
-			<a href="index.html"> <img src="images/OTLogo2016.png"/> </a>
-		</header>
-		<main>
-			<header>
-				<div id="links">
-					<a href="index.html"> <p>Home</p> </a>
-					<a href="jewelry.html"> <p>Jewelry</p> </a>
-					<a href="about.html"> <p>About Us</p> </a>
-					<a class="selected" href="retail.html"> <p>Retailers</p> </a>
-					<a href="contact.html"> <p>Contact</p> </a>
-				</div>
-				<div>
-					<a href="https://www.facebook.com/myorangetwist" target="newtab">
-						<img src="images/FB_Logo.png"/>
-					</a>
-					<a href="mailto:?subject=Orange Twist Jewelry website&body=Check this jewelry out! 
-									 http://www.myorangetwist.com.">
-						<img src="images/Share.png"/>
-					</a>
-				</div>
-			</header>
-			<section>
-				<div class="flexslider">
-					<div id="map"> </div>
-				</div>
-				<article>
-					<h1>Retailers</h1>
-					<p>
-						Orange Twist has traveled a good bit of the globe to assemble our collections. You 
-						can find our designs at our fabulous sisterhood of Boutiques and Retailers below.
-					</p>
-					<div>
-						<span>CALIFORNIA</span>
+<span>CALIFORNIA</span>
 						<br />
 
 						<b>Charles W. Bowers Museum of Art</b><br />
@@ -374,31 +330,3 @@
 						<br />
 						<br />
 						<h6>All 47 stores</h6>
-					</div>
-				</article>
-			</section>
-			<footer>
-				<p>
-					Orange Twist jewelry is sold exclusively to the trade. Please 
-					<a href="contact.html">contact us</a> for pricing and ordering information.
-					<br />
-					<a href="assets/OT-2018.pdf" target="newtab">
-						 Download the 2018 Orange Twist Jewelry Collection Catalog 
-					</a>    
-					<br />
-					Download our previous catalogs: 
-					<a href="assets/OT-2016.pdf" target="newtab">2016</a>,
-					<a href="assets/OT-2015Holiday.pdf" target="newtab">2015 Fall/Holiday</a>, 
-					<a href="assets/OT-2015Summer.pdf" target="newtab">2015 Spring/Summer</a>, 
-					<a href="assets/OT-2014Holiday.pdf" target="newtab">2014 Fall/Holiday</a>
-				</p>     
-			</footer>
-		</main>
-		<div>
-			<a href="https://www.linkedin.com/in/chappy-asel-b0629856/" title="Chappy Asel on LinkedIn"
-				 target="newtab">
-				<p>Website by Chappy Asel</p>
-			</a>
-		</div>
-	</body>
-</html>
