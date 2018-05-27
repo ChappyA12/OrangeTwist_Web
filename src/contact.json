@@ -2,6 +2,7 @@
    "regions": [
       {
          "region": "Main Contact Info",
+				 "abbrev": "main",
          "intro": [
             "Please contact us with any questions, press requests or more information:",
             "206 N. Cherry Street",
@@ -17,6 +18,7 @@
       },
       {
          "region": "Northeast Region",
+				"abbrev": "northeast",
          "contacts": [
             {
                "name": "Deb Fanton",
@@ -27,22 +29,24 @@
       },
       {
          "region": "Mid-Atlantic Region",
+				 "abbrev": "mid",
          "contacts": [
             {
                "name": "Cindy Kilmer",
                "email": "cindykilmer@myorangetwist.com",
-               "phone": "703-470-1996",
+               "phone": "703-470-1996"
             },
             {
                "name": "Cyndi Stephenson",
                "email": "cyndistephenson@myorangetwist.com",
-               "phone": "703-953-5900",
+               "phone": "703-953-5900"
             }
          ]
 
       },
       {
          "region": "Southeast, Central and West Coast Regions",
+				 "abbrev": "other",
          "contacts": [
             {
                "name": "Andrea Roberson",
@@ -54,6 +58,7 @@
       },
       {
          "region": "National Sales: Museum Gift Shops",
+				 "abbrev": "national",
          "contacts": [
             {
                "name": "Donald Burns, Burns Rep Group",

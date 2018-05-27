@@ -2,7 +2,6 @@
 const BASE_URL = "http://myorangetwist.com";
 
 window.onload = function() {
-	loadMap();
 	loadRetailers();
 };
 
@@ -16,6 +15,7 @@ function loadRetailers() {
 }
 
 function processRetailers(response) {
+	loadMap(response);
 	let count = 0;
 	for (let i = 0; i < response.retailers.length; i++) {
 		let state = response.retailers[i];
@@ -23,8 +23,8 @@ function processRetailers(response) {
 		for (let x = 0; x < state.stores.length; x++) {
 			let store = state.stores[x];
 			$("#retailers").append("<b>" + store.name + "</b><br />");
-			for (let z = 0; z < store.adress.length; z++) {
-				$("#retailers").append(store.adress[z] + "<br />");
+			for (let z = 0; z < store.address.length; z++) {
+				$("#retailers").append(store.address[z] + "<br />");
 			}
 			if (store.phone) {
 				$("#retailers").append(store.phone + "<br />");

@@ -1,23 +1,41 @@
 {
+	"other": [
+		{
+			"name": "Orange Twist HQ",
+			"address": [
+				"206 North Cherry St.",
+				"Falls Church, VA  22046"
+			],
+			"location": [
+				38.881845, -77.164451
+			]
+		}
+	],
 	"retailers": [
 		{
 			"state": "CALIFORNIA",
 			"stores": [
 				{
 					"name": "Charles W. Bowers Museum of Art",
-					"adress": [
+					"address": [
 						"40 Presidential Dr.",
 						"Santa Ana, CA  92706"
 					],
-					"phone": "714-567-3622"
+					"phone": "714-567-3622",
+					"location": [
+						33.763356, -117.868205
+					]
 				},
 				{
 					"name": "Ronald Reagan Presidential Museum Gift Store",
-					"adress": [
+					"address": [
 						"3446 28th St.",
 						"Simi Valley, CA  93065-0600"
 					],
-					"phone": "800-998-7641"
+					"phone": "800-998-7641",
+					"location": [
+						34.259867, -118.819808
+					]
 				}
 			]
 		},
@@ -26,54 +44,75 @@
 			"stores": [
 				{
 					"name": "Astrid",
-					"adress": [
+					"address": [
 						"255 North Parker Rd.",
 						"Killingworth, CT  06419"
 					],
-					"phone": "860-663-2403"
+					"phone": "860-663-2403",
+					"location": [
+						41.403622, -72.546015
+					]
 				},
 				{
 					"name": "Country Shop of Madison",
-					"adress": [
+					"address": [
 						"684 Boston Post Rd.",
 						"Madison, CT  06443-3045"
 					],
-					"phone": "203-318-0368"
+					"phone": "203-318-0368",
+					"location": [
+						41.279078, -72.596521
+					]
 				},
 				{
 					"name": "La Moda",
-					"adress": [
+					"address": [
 						"1434 Post Rd.",
 						"Fairfield, CT  06824"
 					],
-					"phone": "203-254-2112"
+					"phone": "203-254-2112",
+					"location": [
+						41.141425, -73.257119
+					]
 				},
 				{
 					"name": "Odeon",
-					"adress": [
+					"address": [
 						"918 Whalley Ave",
 						"New Haven, CT  06515"
+					],
+					"location": [
+						41.327547, -72.960591
 					]
 				},
 				{
 					"name": "Sound Beach Sportswear",
-					"adress": [
+					"address": [
 						"239 Sound Beach Ave",
 						"Old Greenwich, CT  06870"
+					],
+					"location": [
+						41.030923, -73.567770
 					]
 				},
 				{
 					"name": "Swank on Bank",
-					"adress": [
+					"address": [
 						"16 Bank St.",
 						"New Milford, CT 06776"
+					],
+					"location": [
+						41.577597, -73.411599
 					]
 				},
 				{
 					"name": "Tracy Brent",
-					"adress": [
+					"address": [
 						"76 Broad St.",
 						"Guilford, CT  06437"
+					],
+					"location": [
+						41.284340, -72.683676
 					]
 				}
 			]
@@ -83,41 +122,56 @@
 			"stores": [
 				{
 					"name": "Hillwood Estate Museum and Gardens",
-					"adress": [
+					"address": [
 						"4155 Linnean Ave NW",
 						"Washington, DC  20008"
 					],
-					"phone": "202-243-3931"
+					"phone": "202-243-3931",
+					"location": [
+						38.943490, -77.052457
+					]
 				},
 				{
 					"name": "The Kennedy Center Gift Shops",
-					"adress": [
+					"address": [
 						"2700 F St. NW",
 						"Washington, DC  20566"
+					],
+					"location": [
+						38.896151, -77.055447
 					]
 				},
 				{
 					"name": "National Building Museum",
-					"adress": [
+					"address": [
 						"401 F St. NW",
 						"Washington, DC  20001"
+					],
+					"location": [
+						38.897752, -77.017619
 					]
 				},
 				{
 					"name": "National Gallery of Art",
-					"adress": [
+					"address": [
 						"4th and Constituation Ave NW",
 						"Washington, DC  20565"
 					],
-					"phone": "202-789-3168"
+					"phone": "202-789-3168",
+					"location": [
+						38.892072, -77.017486
+					]
 				},
 				{
 					"name": "National Museum of Women in the Arts",
-					"adress": [
+					"address": [
 						"250 New York Ave NW",
 						"Washington, DC  20005"
 					],
-					"phone": "202-783-7994"
+					"phone": "202-783-7994",
+					"location": [
+						38.905246, -77.014897
+					]
 				}
 			]
 		},
@@ -126,26 +180,35 @@
 			"stores": [
 				{
 					"name": "Carmine's Gift Shop",
-					"adress": [
+					"address": [
 						"2401 PGA Blvd, Suite 172",
 						"Palm Beach Gardens, FL  33410"
+					],
+					"location": [
+						26.846188, -80.070818
 					]
 				},
 				{
 					"name": "Lemon Twist Shop Florida",
-					"adress": [
+					"address": [
 						"900 Sawgrass Village Dr.",
 						"Ponte Vedra Beach, FL  32082"
 					],
-					"phone": "904-280-5955"
+					"phone": "904-280-5955",
+					"location": [
+						30.205777, -81.380801
+					]
 				},
 				{
 					"name": "Morse Museum of Art",
-					"adress": [
+					"address": [
 						"445 North Park Ave",
 						"Winter Park, FL  32789"
 					],
-					"phone": "407-645-5311"
+					"phone": "407-645-5311",
+					"location": [
+						28.600867, -81.351504
+					]
 				}
 			]
 		},
@@ -154,83 +217,113 @@
 			"stores": [
 				{
 					"name": "Alikat",
-					"adress": [
+					"address": [
 						"1 South Market Building Floor 3",
 						"Boston, MA  02109"
 					],
-					"phone": "978-887-0945"
+					"phone": "978-887-0945",
+					"location": [
+						42.360206, -71.054766
+					]
 				},
 				{
 					"name": "Bryn Walker - Edgartown",
-					"adress": [
+					"address": [
 						"211 Kelley St.",
 						"Edgartown, MA  02539"
 					],
-					"phone": "508-627-7715"
+					"phone": "508-627-7715",
+					"location": [
+						41.389734, -70.511665
+					]
 				},
 				{
 					"name": "Bryn Walker - Vineyard Haven",
-					"adress": [
+					"address": [
 						"16 Main St.",
 						"Vineyard Haven, MA  02539"
 					],
-					"phone": "508-693-8340"
+					"phone": "508-693-8340",
+					"location": [
+						41.453894, -70.603490
+					]
 				},
 				{
 					"name": "Collections on Court",
-					"adress": [
+					"address": [
 						"2 Court St.",
 						"Plymouth, MA  02360"
 					],
-					"phone": "508-732-9850"
+					"phone": "508-732-9850",
+					"location": [
+						41.957055, -70.665096
+					]
 				},
 				{
 					"name": "Herlihy's Jewelry",
-					"adress": [
+					"address": [
 						"76 Maple St.",
 						"Florence, MA  01062"
 					],
-					"phone": "413-584-2283"
+					"phone": "413-584-2283",
+					"location": [
+						42.335173, -72.672510
+					]
 				},
 				{
 					"name": "Lola Tortola",
-					"adress": [
+					"address": [
 						"81 Chapel St.",
 						"Needham, MA  02492"
 					],
-					"phone": "781-455-0018"
+					"phone": "781-455-0018",
+					"location": [
+						42.281325, -71.236992
+					]
 				},
 				{
 					"name": "Museum of Fine Arts Boston",
-					"adress": [
+					"address": [
 						"465 Huntington Ave",
 						"Boston, MA  02115"
 					],
-					"phone": "617-369-4273"
+					"phone": "617-369-4273",
+					"location": [
+						42.339457, -71.094143
+					]
 				},
 				{
 					"name": "Sportworks",
-					"adress": [
+					"address": [
 						"45 Depot St.",
 						"Duxbury, MA  02331"
 					],
-					"phone": "781-934-9501"
+					"phone": "781-934-9501",
+					"location": [
+						42.037569, -70.671124
+					]
 				},
 				{
 					"name": "Sundance",
-					"adress": [
+					"address": [
 						"497 Main St.",
 						"Chatham, MA  02633"
 					],
-					"phone": "508-945-5096"
+					"phone": "508-945-5096",
+					"location": [
+						41.679893, -69.957114
+					]
 				},
 				{
 					"name": "Tre Jolie",
-					"adress": [
+					"address": [
 						"161 Washington St.",
 						"East Walpole, MA  02032"
 					],
-					"phone": "508-660-7161"
+					"phone": "508-660-7161",
+					"location": [
+						42.161904, -71.216379
+					]
 				}
 			]
 		},
@@ -239,18 +332,24 @@
 			"stores": [
 				{
 					"name": "Lemon Twist - Chevy Chase",
-					"adress": [
+					"address": [
 						"8541 Connecticut Ave",
 						"Chevy Chase, MD  20815"
+					],
+					"location": [
+						38.995795, -77.077083
 					]
 				},
 				{
 					"name": "The Walters Art Museum",
-					"adress": [
+					"address": [
 						"600 North Charles St.",
 						"Baltimore, MD 21201"
 					],
-					"phone": "410-547-9000x208"
+					"phone": "410-547-9000x208",
+					"location": [
+						39.296574, -76.616365
+					]
 				}
 			]
 		},
@@ -259,11 +358,14 @@
 			"stores": [
 				{
 					"name": "House of Logan",
-					"adress": [
+					"address": [
 						"PO Box 387",
 						"Boothbay Harbor, ME 04538"
 					],
-					"phone": "781-467-9034"
+					"phone": "781-467-9034",
+					"location": [
+						43.851276, -69.628950
+					]
 				}
 			]
 		},
@@ -272,27 +374,36 @@
 			"stores": [
 				{
 					"name": "Alice Blues",
-					"adress": [
+					"address": [
 						"10 School St.",
 						"Peterborough, NH  03458"
 					],
-					"phone": "603-924-6520"
+					"phone": "603-924-6520",
+					"location": [
+						42.876602, -71.949935
+					]
 				},
 				{
 					"name": "Miranda",
-					"adress": [
+					"address": [
 						"28 Main Street",
 						"Peterborough, NH 03458"
 					],
-					"phone": "603-352-0681"
+					"phone": "603-352-0681",
+					"location": [
+						42.877500, -71.949503
+					]
 				},
 				{
 					"name": "Prim Fashion Boutique",
-					"adress": [
+					"address": [
 						"87 Lafayette Rd. #9",
 						"Hampton Falls, NH 03844"
 					],
-					"phone": "603-926-1500"
+					"phone": "603-926-1500",
+					"location": [
+						42.916015, -70.863702
+					]
 				}
 			]
 		},
@@ -301,10 +412,13 @@
 			"stores": [
 				{
 					"name": "Princeton Art Museum",
-					"adress": [
+					"address": [
 						"Princeton, NJ  08544"
 					],
-					"phone": "609-258-7674"
+					"phone": "609-258-7674",
+					"location": [
+						40.346717, -74.656877
+					]
 				}
 			]
 		},
@@ -313,9 +427,12 @@
 			"stores": [
 				{
 					"name": "Winter Sun and Summer Moon",
-					"adress": [
+					"address": [
 						"10-14 East Market St.",
 						"Rhinebeck, NY  12572"
+					],
+					"location": [
+						41.926747, -73.912115
 					]
 				}
 			]
@@ -325,11 +442,14 @@
 			"stores": [
 				{
 					"name": "Preservation Society of Newport, Mansions of Newport Gift Shops",
-					"adress": [
+					"address": [
 						"424 Bellevue Ave",
 						"Newport, RI  02840"
 					],
-					"phone": "401-847-1000x174"
+					"phone": "401-847-1000x174",
+					"location": [
+						41.474988, -71.307316
+					]
 				}
 			]
 		},
@@ -338,11 +458,14 @@
 			"stores": [
 				{
 					"name": "Cotton Mill Exchange, South Carolina State Museum",
-					"adress": [
+					"address": [
 						"301 Gervais St.",
 						"Columbia, SC  29201"
 					],
-					"phone": "803-898-4968"
+					"phone": "803-898-4968",
+					"location": [
+						33.998294, -81.048006
+					]
 				}
 			]
 		},
@@ -351,19 +474,25 @@
 			"stores": [
 				{
 					"name": "Country Music Hall of Fame",
-					"adress": [
+					"address": [
 						"222 Fifth Ave South",
 						"Nashville, TN  372023"
 					],
-					"phone": "615-291-8415"
+					"phone": "615-291-8415",
+					"location": [
+						36.158334, -86.776266
+					]
 				},
 				{
 					"name": "Pink Palace",
-					"adress": [
+					"address": [
 						"3050 Central Ave",
 						"Memphis, TN  38111"
 					],
-					"phone": "901-636-2392"
+					"phone": "901-636-2392",
+					"location": [
+						35.124883, -89.959533
+					]
 				}
 			]
 		},
@@ -372,19 +501,25 @@
 			"stores": [
 				{
 					"name": "Briscoe Western Art Museum",
-					"adress": [
+					"address": [
 						"210 West Market St.",
 						"San Antonio, TX  78205"
 					],
-					"phone": "210-299-4499x581"
+					"phone": "210-299-4499x581",
+					"location": [
+						29.422921, -98.489009
+					]
 				},
 				{
 					"name": "The Sixth Floor Museum Gift Shop",
-					"adress": [
+					"address": [
 						"501 Elm St.",
 						"Dallas, TX  75202"
 					],
-					"phone": "214-747-6660"
+					"phone": "214-747-6660",
+					"location": [
+						32.780037, -96.807723
+					]
 				}
 			]
 		},
@@ -393,25 +528,34 @@
 			"stores": [
 				{
 					"name": "Covet",
-					"adress": [
+					"address": [
 						"5140B Wilson Blvd",
 						"Arlington, VA  22205"
 					],
-					"phone": "703-247-9797"
+					"phone": "703-247-9797",
+					"location": [
+						38.877334, -77.123987
+					]
 				},
 				{
 					"name": "Lemon Twist",
-					"adress": [
+					"address": [
 						"4518 North Lee Hwy",
 						"Arlington, VA  22207"
 					],
-					"phone": "703-524-4680"
+					"phone": "703-524-4680",
+					"location": [
+						38.898354, -77.118651
+					]
 				},
 				{
 					"name": "Virginia Museum of Fine Arts",
-					"adress": [
+					"address": [
 						"200 North Blvd",
 						"Richmond, VA  23220"
+					],
+					"location": [
+						37.555796, -77.474930
 					]
 				}
 			]
@@ -421,19 +565,25 @@
 			"stores": [
 				{
 					"name": "Everywear for Everybody",
-					"adress": [
+					"address": [
 						"233 Main St.",
 						"Vergennes, VT  05491"
 					],
-					"phone": "802-877-6811"
+					"phone": "802-877-6811",
+					"location": [
+						44.167358, -73.252769
+					]
 				},
 				{
 					"name": "In Company",
-					"adress": [
+					"address": [
 						"344 Mountain Rd.",
 						"Stowe, VT 05672"
 					],
-					"phone": "802.253.4595"
+					"phone": "802.253.4595",
+					"location": [
+						44.470032, -72.687134
+					]
 				}
 			]
 		}
