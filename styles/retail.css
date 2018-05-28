@@ -10,8 +10,7 @@ article > div {
 	margin: auto;
 	overflow-y: scroll;
 	border: 1px solid #CCC;
-	padding-top: 40px;
-	padding-left: 40px;
+	padding: 40px 10px 0px 40px; 
 	color: #666;
 }
 
@@ -42,6 +41,18 @@ h6 {
 	color: #CCC;
 }
 
+@media only screen and (max-width: 600px) {
+	article > div {
+		height: auto;
+		width: 80%;
+		padding-left: 30px;
+	}
+
+	h6 {
+		font-size: 12px;
+	}
+}
+
 /* map */
 
 .map-title {
@@ -55,4 +66,16 @@ h6 {
 	font-size: 14px;
 	line-height: 25px;
 	color: #666;
+}
+
+@media only screen and (max-width: 600px) {
+	.map-title {
+		text-align: left;
+		font-size: 12px;
+	}
+
+	.map-body {
+		font-size: 12px;
+		line-height: 14px;
+	}
 }

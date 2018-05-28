@@ -17,21 +17,6 @@ main, body > header {
 	max-width: 1300px;
 }
 
-@media only screen and (max-width: 1400px) {
-	main, body > header {
-		margin: auto;
-		width: 80%;
-	}
-}
-
-@media only screen and (max-width: 800px) {
-	main, body > header {
-		margin: auto;
-		width: 100%;
-		min-width: 300px;
-	}
-}
-
 main {
 	border: 1px solid #CCC;
 	background-color:#FFF;
@@ -44,6 +29,26 @@ body > header {
 body > header img {
 	height: 100%;
 }
+
+@media only screen and (max-width: 1200px) {
+	main, body > header {
+		margin: auto;
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	main, body > header {
+		margin: auto;
+		width: 100%;
+		min-width: 300px;
+	}
+	
+	body > header {
+		height: 140px;
+	}
+}
+
 
 /* header */
 
@@ -97,6 +102,7 @@ header div img {
 	background-position: top;
 	background-size: cover;
 	height: 380px;
+	max-height: 380px;
 	width: 100%;
 }
 
@@ -106,11 +112,14 @@ header div img {
 	border-bottom: 1px solid #CCC;
 }
 
-/* article */
-
-article {
-	
+@media only screen and (max-width: 600px) {
+	.flexslider, .flexslider li {
+		height: 50vw;
+		max-height: 250px;
+	}
 }
+
+/* article */
 
 article h1, h2, h3 {
 	padding-top: 20px;
@@ -165,6 +174,32 @@ a:hover {
 	color: #ffa270;
 }
 
+@media only screen and (max-width: 600px) {
+
+	article h1 {
+		font-size: 7vw;
+		height: 12vw;
+	}
+
+	article h2 {
+		font-size: 5vw;
+		height: 8vw;
+	}
+
+	article h3 {
+		font-size: 3vw;
+		height: 8vw;
+		width: 85%;
+		min-width: 0px;
+	}
+	
+	article > p {
+		width: 75%;
+		padding: 0px 20px;
+		font-size: 15px;
+	}
+}
+
 /* footer */
 
 footer {
@@ -174,6 +209,7 @@ footer {
 }
 
 footer p {
+	padding: 10px;
 	margin-top: 10px;
 	font-size: 12px;
 	line-height: 22px;
@@ -181,6 +217,13 @@ footer p {
 
 footer a {
 	text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+	footer p {
+		font-size: 10px;
+		line-height: 16px;
+	}
 }
 
 /*creation*/
@@ -191,7 +234,7 @@ body > div {
 	width: 100%;
 	height: 40px;
 	background-color: #FFF;
-	text-decoration: off;
+	text-decoration: none;
 }
 
 body > div p {
@@ -199,4 +242,10 @@ body > div p {
 	float: left;
 	font-size: 14px;
 	color: #666;
+}
+
+@media only screen and (max-width: 600px) {
+	body > div p {
+		font-size: 12px;
+	}
 }

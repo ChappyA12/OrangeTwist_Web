@@ -52,3 +52,24 @@ article div a {
 article div a:hover {
 	color: #ffa270;
 }
+
+@media only screen and (max-width: 600px) {
+	article > div {
+		width: 100%;
+		min-width: 0px;
+		height: auto;
+	}
+	
+	.top {
+		height: 55px;
+	}
+
+	article h2 {
+		font-size: 4.5vw;
+	}
+
+	article div p {
+		padding: 0px 0px 0px 10%;
+		font-size: 14px;
+	}
+}

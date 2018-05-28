@@ -7,3 +7,9 @@ article img {
 	padding: 0 15%;
 	height: 120px;
 }
+
+@media only screen and (max-width: 600px) {
+	article img {
+		height: 20vw;
+	}
+}
