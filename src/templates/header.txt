@@ -1,0 +1,16 @@
+<div id="links">
+	<a id="index" href="index.html"> <p>Home</p> </a>
+	<a id="jewelry" href="jewelry.html"> <p>Jewelry</p> </a>
+	<a id="about" href="about.html"> <p>About Us</p> </a>
+	<a id="retail" href="retail.html"> <p>Retailers</p> </a>
+	<a id="contact" href="contact.html"> <p>Contact</p> </a>
+</div>
+<div>
+	<a href="https://www.facebook.com/myorangetwist" target="newtab">
+		<img src="img/src/share/facebook.png"/>
+	</a>
+	<a href="mailto:?subject=Orange Twist Jewelry website&body=Check this jewelry out! 
+					 http://www.myorangetwist.com.">
+		<img src="img/src/share/email.png"/>
+	</a>
+</div>

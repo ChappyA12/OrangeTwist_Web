@@ -21,20 +21,20 @@ function processContacts(response) {
 	for (let i = 0; i < response.regions.length; i++) {
 		let region = response.regions[i];
 		sliders[region.abbrev] = 0;
-		$("#contact").append("<div class='top " + region.abbrev + "'>" +
+		$("#contacts").append("<div class='top " + region.abbrev + "'>" +
 												 	"<h2>" + region.region + "</h2>" +
 												 	"<img class='triangle " + region.abbrev + 
 												 	"' src='img/contact/show.png'/>" +
 												"</div>");
-		$("#contact").append("<div class='bottom " + region.abbrev + "'> <p> </p> </div>");
+		$("#contacts").append("<div class='bottom " + region.abbrev + "'> <p> </p> </div>");
 		if (region.intro) {
 			for (let x = 0; x < region.intro.length; x++) {
-				$("#contact div.bottom." + region.abbrev + " p").append(region.intro[x] + "<br />");
+				$("#contacts div.bottom." + region.abbrev + " p").append(region.intro[x] + "<br />");
 			}
 		}
 		for (let x = 0; x < region.contacts.length; x++) {
 			let contact = region.contacts[x];
-			$("#contact div.bottom." + region.abbrev + " p").append(contact.name + "<br />" +
+			$("#contacts div.bottom." + region.abbrev + " p").append(contact.name + "<br />" +
 													 "Email: " + contact.email + "<br />" +
 													 "Cell: " + contact.phone + "<br />");
 		}

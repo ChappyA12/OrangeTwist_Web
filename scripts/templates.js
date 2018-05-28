@@ -1,7 +1,9 @@
 
 const TEMPLATES_BASE_URL = "http://myorangetwist.com/src/templates/";
 
-const TEMPLATES = {"footer.txt": "footer"};
+const TEMPLATES = {"footer.txt": "footer", "header.txt": "main header"};
+
+const HTML_NAME = window.location.pathname.split("/").pop().replace(".html", "");
 
 $(window).load(function() {
 	Object.keys(TEMPLATES).forEach( function(key) {
@@ -21,6 +23,9 @@ function fetchTemplate(template) {
 	
 function processTemplate(response, template) {
 	$(TEMPLATES[template]).append(response);
+	if (template == "header.txt") {
+		$(TEMPLATES[template] + " #" + HTML_NAME).addClass("selected");
+	}
 }
 	
 function checkStatus(response) {
